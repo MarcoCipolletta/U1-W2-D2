@@ -124,7 +124,7 @@
 /* SCRIVI QUI LA TUA RISPOSTA */
 {
   let a = 28;
-  let isANumber = typeof a === "number" ? true : false;
+  let isANumber = typeof a === "number";
   console.log("la variabile 'a' è un numero? " + isANumber);
 }
 /* ESERCIZIO 9
