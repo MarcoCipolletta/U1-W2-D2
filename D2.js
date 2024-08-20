@@ -133,6 +133,15 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+{
+  let a = 12;
+  if (a % 2 === 0) {
+    console.log("la variabile 'a' è un numero pari");
+  } else {
+    console.log("la variabile 'a' è un numero dispari");
+  }
+}
+
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
   let val = 7
