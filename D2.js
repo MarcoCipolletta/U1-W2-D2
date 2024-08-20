@@ -19,6 +19,12 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+{
+  let num1 = 13;
+  let diverso = num1 === 5 ? "equal" : "not equal";
+  console.log("il numero è uguale a 5? " + diverso);
+}
+
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
