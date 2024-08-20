@@ -122,7 +122,11 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+{
+  let a = 28;
+  let isANumber = typeof a === "number" ? true : false;
+  console.log("la variabile 'a' è un numero? " + isANumber);
+}
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
