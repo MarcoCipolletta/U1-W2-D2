@@ -31,6 +31,17 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+{
+  let num1 = 25;
+  let num2 = 36;
+
+  if (num2 % 5 === 0) {
+    console.log("num2 è divisibile per 5");
+  } else if (num1 % 5 === 0) {
+    console.log("num1(" + num1 + ") è divisibile per 5");
+  }
+}
+
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
