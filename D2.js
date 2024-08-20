@@ -103,6 +103,20 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+{
+  let num1 = 23;
+  let num2 = 45;
+  let num3 = 17;
+
+  if (num1 > num2 && num2 > num3) {
+    console.log("num1 > num2 > num3 " + num1 + "-" + num2 + "-" + num3);
+  } else if (num1 > num2 && num3 > num2 && num1 > num3) {
+    console.log("num1 > num3 > num2 " + num1 + "-" + num3 + "-" + num2);
+  } else if (num1 > num3 && num2 > num3 && num2 > num1) {
+    console.log("num2 > num1 > num3 " + num2 + "-" + num1 + "-" + num3);
+  }
+}
+
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
