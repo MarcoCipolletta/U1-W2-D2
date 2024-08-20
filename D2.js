@@ -48,6 +48,14 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+{
+  let num1 = 8;
+  let num2 = 16;
+
+  let numVal8 = num1 === 8 || num2 === 8 || num2 - num1 === 8 || num2 + num1 === 8 ? true : false;
+  console.log("num1(8) o num2(16) oppure la loro addizione/sottrazione sono uguale a 8? " + numVal8);
+}
+
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
