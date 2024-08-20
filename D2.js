@@ -4,6 +4,15 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+{
+  let num1 = 23;
+  let num2 = 43;
+
+  let maggiore = num1 > num2 ? num1 : num2;
+
+  console.log("il numero maggiore tra num1(23) e num2(43) è: " + maggiore);
+}
+
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
@@ -76,10 +85,10 @@
 */
 
 const me = {
-  name: 'John',
-  lastName: 'Doe',
-  skills: ['javascript', 'html', 'css'],
-}
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"]
+};
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
