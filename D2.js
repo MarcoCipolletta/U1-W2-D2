@@ -122,11 +122,13 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
 {
   let a = 28;
   let isANumber = typeof a === "number";
   console.log("la variabile 'a' è un numero? " + isANumber);
 }
+
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
@@ -144,6 +146,7 @@
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
+  
   let val = 7
   if (val < 10) {
       console.log("Meno di 10");
@@ -194,6 +197,7 @@ console.log(me);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
 me.skills.pop();
 console.log(me);
 
@@ -203,8 +207,15 @@ console.log(me);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const numbers = [];
+numbers.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+console.log(numbers);
+
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+numbers.splice(-1, 1, 100);
+console.log(numbers);
