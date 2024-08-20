@@ -66,11 +66,12 @@
 
 {
   let totalShoppingCart = 49;
+  let shippingCost = 10;
   if (totalShoppingCart > 50) {
     alert("Hai diritto alla spedizione gratuita!");
   } else {
-    totalShoppingCart += 10;
-    console.log("Non hai raggiunto il totale per ottenere la spedizione gratuita, quindi devi pagare: " + totalShoppingCart);
+    let total = totalShoppingCart + shippingCost;
+    console.log("Non hai raggiunto il totale per ottenere la spedizione gratuita, quindi devi pagare: " + total);
   }
 }
 
