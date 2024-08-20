@@ -64,6 +64,16 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+{
+  let totalShoppingCart = 49;
+  if (totalShoppingCart > 50) {
+    alert("Hai diritto alla spedizione gratuita!");
+  } else {
+    totalShoppingCart += 10;
+    console.log("Non hai raggiunto il totale per ottenere la spedizione gratuita, quindi devi pagare: " + totalShoppingCart);
+  }
+}
+
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
